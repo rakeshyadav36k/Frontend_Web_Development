@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+.sticky-btn {
+    padding: 10px;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+.sticky-btn:hover {
+    background: dodgerblue;
+}
+.sticky-note {
+    width: 300px;
+    border: 3px solid #333;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.sticky-note-header {
+    background: blue;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: move;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    height: 250px;
+    resize: none;
+    border: none;
+}
+
+.close {
+    width: 35px;
+    height: 35px;
+    background: red;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.close:hover {
+    opacity: 0.8;
+}
