@@ -33,6 +33,7 @@ function App() {
     }
   }, [])
 
+  
   // save the todo list to localStorage as JSON when any change occure in todos
   useEffect(()=> {
     localStorage.setItem("todos", JSON.stringify(todos))
